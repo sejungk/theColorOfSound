@@ -1,0 +1,148 @@
+html, body {
+    background: #E5F2E8;
+    font-family: 'proxima-nova';
+    margin: 0;
+    height: 100%;
+
+  }
+  .header {
+    height: 20%;
+    padding-top: 60px;
+    color: #58586B;
+    font-weight: 500;
+  }
+  .title {
+    -webkit-text-stroke-width: 3px;
+    text-transform: uppercase;
+    font-size: 6.8em;
+    line-height: 100px;
+    text-align: center;
+  }
+  .sub-title {
+    width: 60%;
+    margin-top: 50px;
+    font-size: 1.4em;
+    color: #7F7F8C;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    }
+  .div-wrapper {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     margin-top: 90px;
+     height: 100%;
+     width: 100%;
+  }
+   .song-wrapper {
+     margin: 8px;
+     border:solid;
+     border-color: #E4ECEA;
+     background-color: white;
+     cursor: pointer;
+     flex: .17 0 20%;
+  }
+  .song-container {
+     width: 100%;
+     aspect-ratio: 51/55;
+     display:flex;
+     flex-direction: column;
+     margin: 2.5%;
+  }
+   .color {
+    width: 95%;
+    height: 84%;
+    background-color: #F3D7CB;
+
+  }
+  .color-name {
+    margin: 0;
+    position: relative;
+    width: 90%;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #515151;
+  }
+  .color-name-wrapper {
+    margin: 0;
+    position: relative;
+    width: 95%;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #515151;
+    margin:5%;
+    margin-left:2%;
+  }
+  .color-name {
+    font-size: 1.7em;
+    margin-top: 2%;
+    margin-bottom: 1%
+  }
+  .color-hex {
+    font-weight: 500;
+    margin-top:0;
+    margin-bottom: 4%;
+    color: #7A7A7A;
+  }
+  @media (max-width: 1000px) and (min-width: 451px){
+  .header {
+    height: 30%;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  .title {
+    line-height: 100px;
+    max-height: 60%
+    font-size: 100px;
+  }
+  .sub-title {
+    margin-top: 60px;
+    font-size: 1.5em;
+    margin: auto;
+    width: 90%;
+    }
+
+  .div-wrapper .song-wrapper {
+     flex-basis: calc(115% / 4);
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .header {
+      padding-top: 40px;
+      margin: 0;
+    }
+    .title {
+      font-size: 32px;
+      line-height: 60px;
+      text-align: center;
+      -webkit-text-stroke-width: 0px;
+      font-weight: bold;
+    }
+    .sub-title {
+      padding-top: 0;
+      margin: auto;
+      font-size: 15px;
+      width: 300px;
+      text-align: center;
+    }
+    .div-wrapper {
+      position: absolute;
+      width: 100%;
+      margin-top: 30px;
+      left:0;
+    }
+    .song-wrapper {
+     margin: 20px;
+     margin-bottom: 0;
+     flex: 50%;
+  }  
+  .song-container {
+     width: 100%;
+     aspect-ratio: 51/55;
+     margin: 2.5%;
+  }
+  }
