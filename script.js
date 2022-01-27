@@ -59,7 +59,7 @@ $( document ).ajaxComplete(function() {
 
 // }
 
-var redirect_uri = "https://localhost/log/playlist.html";
+var redirect_uri = "https://www.colortosound.com/playlist";
 const client_id = 'fda5ec67523545f18b96a159dee8702b';
 const client_secret = 'f64d5ec6866546659b08464bdb17307e';
 var userId;
